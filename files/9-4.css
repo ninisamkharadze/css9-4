@@ -1,0 +1,865 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.everyThingDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 104px;
+    background-color: #0E0E0E;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.headerTopPart {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    justify-content: space-between;
+    padding-top: 19px;
+    padding-bottom: 19px;
+}
+
+.onlyIcons  {
+    display: flex;
+    gap: 17px;
+}
+
+.headerBottomPart {
+    display: flex;
+    flex-direction: row;
+    gap: 262px;
+}
+
+.mailAndCall {
+    display: flex;
+    gap: 68px;
+}
+
+.mail {
+    display: flex;
+    gap: 11px;
+    align-items: center;
+}
+
+.contactSpans {
+    display: flex;
+    flex-direction: column;
+}
+
+.call {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.topHeaderParent {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+}
+
+.openingHoursSpan {
+    color: #1C2752;
+    font-size: 18px;
+}
+
+.pinkColorSpan {
+    color: #DD2590;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.contactSpan {
+    color: #7E7E7E;
+    font-size: 18px;
+}
+
+.firstBackgroundDiv {
+    width: 100%;
+    height: 825px;
+    background-image: url("../images/firstBackground.svg");
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 56px;
+}
+
+.backgroundsText {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    width: 70%;
+    align-items: flex-start;
+}
+
+.backgroundsFirstPart {
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+    align-items: flex-start;
+}
+
+.greyDivWithIcon {
+    display: flex;
+    gap: 9px;
+    padding: 8px 16px 7px 16px;
+    background-color: rgba(255, 255, 255, 0.20);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    justify-content: center;
+    align-items: flex-end;  
+}
+
+h1 {
+    color: #fff;
+    font-size: 60px;
+    font-weight: 800;
+}
+
+.pinkButton {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 33px 21px 33px;
+    border: none;
+    background-color: #DD2590;
+}
+
+.badImgAndText {
+    display: flex;
+    gap: 60px;
+    width: 90%;
+}
+
+.mainDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 104px;
+    align-items: center;
+}
+
+.textNextToImage1 {
+    display: flex;
+    flex-direction: column;
+    gap: 38px;
+}
+
+.firstPart {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex-grow: 1;
+}
+
+.buttonAndH2Div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.welcomeButton {
+    display: flex;
+    gap: 9px;
+    color: #DD2590;
+    font-size: 18px;
+    background-color: #FFC4E7;
+    padding: 8px 16px 7px 16px;
+    border: none;
+    width: 50%;
+}
+
+.pinkH2 {
+    color: #DD2590;
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.bigPs {
+    color: #fff;
+    font-size: 18px;
+}
+
+.seccondPart {
+    display: flex;
+    gap: 40px;
+    flex-grow: 1;
+}
+
+.listNextToPink {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    color: #fff;
+    justify-content: stretch;
+}
+
+.pinkBigDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    background-color: #DD2590;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 84px;
+}
+
+.pinkFirstPart {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    width: 723px;
+}
+
+.pinksH2AndP {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    align-items: center;
+}
+
+.pinksH2 {
+    color: #fff;
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.pinksP {
+    color: #fff;
+    font-size: 18px;
+}
+
+.hoverButtonsDiv {
+    display: flex;
+    gap: 30px;
+}
+
+.buttonsStyles {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    border:  1px solid #FFF;
+    background-color: #DD2590;
+    padding: 14px 36px 17px 36px;
+}
+
+.buttonsStyles:hover {
+    color: #000;
+    background-color: #fff;
+}
+
+.buttonsStyles:focus {
+    color: #000;
+    background-color: #fff;
+}
+
+.pinksSecondPart {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    padding: 59px 66px;
+    background-color: #fff;
+    width: 85%;
+}
+
+
+.whiteDivsButtondAndText {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    width: 391px;
+    align-items: flex-start;
+}
+
+.topPart {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: flex-start;
+}
+
+.onlyText {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    align-items: flex-start;
+}
+
+.commercialH2 {
+    color: #000;
+    font-size: 35px;
+    font-weight: 800;
+}
+
+.onlyP {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.welcomePinkButton {
+    color: #DD2590;
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    padding: 8px 16px 7px 16px;
+    gap: 9px;
+    border: none;
+    background-color: #FFC4E7;
+}
+
+.loremText {
+    color: #7E7E7E;
+    font-size: 18px;
+}
+
+.readMoreButton {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 33px 21px 33px;
+    border: none;
+    background-color: #DD2590;
+}
+
+.textAndCards {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+}
+
+.buttonAndText {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    width: 687px;
+    align-items: flex-start;
+    align-items: center;
+}
+
+.buttonAndH2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#p {
+    text-align: center;
+}
+
+.cardsDiv {
+    display: flex;
+    gap: 25px;
+    width: 95%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 47px 37px 47px 36px;
+    background-color: #FFE1F3;
+    width: 326px;
+}
+
+.cardsFirstPart {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.cardsOnlyText {
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+}
+
+.cardsPinkSpan {
+    color: #DD2590;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.cardsP {
+    color: #000;
+    font-size: 18px;
+}
+
+.readMore {
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.cardsIconSizes {
+    width: 48px;
+    height: 48px;
+}
+
+.textAndDivWithBackgroundImg {
+    display: flex;
+    gap: 60px;
+    width: 95%;
+    align-self: flex-end;
+}
+
+.secondBackgroundDivsText {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 545px;
+}
+
+.buttonH2AndPDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.buttonAndH2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.fewReasonsH2 {
+    color: #DD2590;
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.listOfSpans {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.tickAndSpans {
+    display: flex;
+    gap: 13px;
+}
+
+.listSpans {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.listFirstSpan {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.listSecondSpan {
+    color: #7E7E7E;
+    font-size: 18px;
+}
+
+.pinkTick {
+    align-self: flex-start;
+}
+
+#again {
+    width: 50%;
+    align-self: flex-start;
+}
+
+.secondBackgroundDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background-image: url("../images/secondBackgroundImg.svg");
+}
+
+.pinkAndgreyDiv {
+    display: flex;
+    flex-direction: row;
+}
+
+.pinkLittleSpan{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 800;
+    background-color: #DD2590;
+    padding: 17px 18px;
+}
+
+.argbaDiv {
+    padding: 56px;
+    background-color: rgba(28, 39, 82, 0.30);
+    backdrop-filter: blur(12.5px);
+    display: flex;
+    flex-direction: column;
+    gap: 37px;
+    height: 483px;
+}
+
+.projectSpan {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 700;
+    border: 1px solid #FFF;
+    padding: 17px 22px;
+}
+
+.textAndCardsWithBackgroundImgDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    padding-bottom: 393px;
+}
+
+.onlyText {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.h2h2 {
+    color: #DD2590;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.pP {
+    color: #7E7E7E;
+    font-size: 20px;
+}
+
+.cardsWithBackgroundImg {
+    display: flex;
+    gap: 32px;
+    width: 90%;
+}
+
+.backgroundDiv {
+    width: 34%;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+    align-items: center;
+    padding-bottom: 32px;
+}
+
+.topFooter {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    justify-content: space-between;
+    padding-bottom: 56px;
+    border-bottom: 1px solid #4B557D;
+}
+
+.footerContact {
+    display: flex;
+    gap: 12px;
+}
+
+.bottomFooter {
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+}
+
+.bottomsTopFooter {
+    display: flex;
+    gap: 68px;
+    padding-top: 41px;
+    padding-bottom: 41px;
+    border-bottom: 1px solid #4B557D;
+}
+
+.footersIconsAndText {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    width: 440px;
+}
+
+.onlyFooterIcons {
+    display: flex;
+    gap: 15px;
+}
+
+.footerP {
+    color: #fff;
+    font-size: 18px;
+}
+
+.footerNav {
+    display: flex;
+    gap: 34px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.aStyles {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+.footerNavSpan {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.Copyright {
+    color: #fff;
+    font-size: 18px;
+    align-self: center;
+}
+
+.phonesBackgroundDiv {
+    display: none;
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .onlyIcons  {
+        display: none;
+    }
+
+    .headerBottomPart {
+        flex-direction: column;
+        gap: 16px;
+        align-self: flex-start;
+    }
+
+    .seccondPart {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .experience {
+        width: 100%;
+    }
+
+    .image1 {
+        height: 100%;
+    }
+
+    .hoverButtonsDiv {
+        flex-direction: column;
+    }
+
+    .buttonsStyles {
+        display: flex;
+        justify-content: center;
+    }
+
+    .pinksSecondPart {
+        flex-direction: column;
+    }
+
+    .whiteDivsButtondAndText {
+        width: 100%;
+    }
+
+    .manImg {
+        width: 100%;
+    }
+
+    .card {
+        width: auto;
+    }
+
+    .textAndDivWithBackgroundImg {
+        flex-direction: column;
+    }
+
+    .secondBackgroundDivsText {
+        width: auto;
+    }
+
+    .secondBackgroundDiv {
+        width: auto;
+    }
+
+    .cardsWithBackgroundImg {
+        flex-direction: column;
+    }
+
+    .backgroundDiv {
+        width: 100%;
+    }
+
+    .image {
+        width: 100%;
+    }
+
+    .topFooter {
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .bottomsTopFooter {
+        flex-direction: column;
+    }
+
+    .footersIconsAndText {
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .onlyIcons  {
+        display: none;
+    }
+
+    .headerBottomPart {
+        flex-direction: column;
+        gap: 16px;
+        align-self: flex-start;
+    }
+
+    .mailAndCall {
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .mainDiv {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .firstBackgroundDiv {
+        background-image: none;
+        height: auto;
+    }
+
+    .phonesBackgroundDiv {
+        display: block;
+        width: 100%;
+        height: 825px;
+        background-image: url("../images/firstBackground.svg");
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        padding-bottom: 56px;
+        align-items: flex-start;
+    }
+
+    .badImgAndText {
+        flex-direction: column;
+    }
+
+    .seccondPart {
+        flex-direction: column;
+    }
+
+    .experience {
+        width: 100%;
+    }
+
+    .hoverButtonsDiv {
+        flex-direction: column;
+    }
+
+    .buttonsStyles {
+        display: flex;
+        justify-content: center;
+    }
+
+    .pinksSecondPart {
+        flex-direction: column;
+    }
+
+    .cardsDiv {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 100%;
+    }
+        
+    .textAndDivWithBackgroundImg {
+        flex-direction: column;
+    }
+
+    .secondBackgroundDiv {
+        width: 100%;
+    }
+
+    .cardsWithBackgroundImg {
+        flex-direction: column;
+    }
+
+    .backgroundDiv {
+        width: 100%;
+    }
+
+    .image {
+        width: 100%;
+    }
+
+    .textAndCardsWithBackgroundImgDiv {
+        padding-bottom: 0;
+    }
+
+    .topFooter {
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .footerContact {
+        flex-direction: column;
+    }
+
+    .bottomsTopFooter {
+        flex-direction: column;
+    }
+
+    .footerNav {
+        flex-direction: column;
+    }
+
+    .footerLogo {
+        width: 230px;
+        height: 44px;
+    }
+
+    .pinkFirstPart {
+        width: auto;
+        padding: 16px;
+    }
+
+    .buttonAndText {
+        width: auto;
+    }
+
+    .headerBottomPart {
+        padding: 16px;
+    }
+
+    .footer {
+        padding: 16px;
+    }
+}
